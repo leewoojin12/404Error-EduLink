@@ -5,7 +5,7 @@
 
 <div align=center>
 <h3>404Error</h3>
-<h4>2팀 - 👽김무성, 🐹김유진, 🐨김정엽, 🦊오건하, 🤖이우진</h4>
+<h4>2팀 - 🐯김무성, 🐶김유진, 🐺김정엽, 🐱오건하, 🦁이우진</h4>
 </div>
 
 ## 🤼‍♂️팀원 소개 
@@ -64,15 +64,15 @@ EduLink는 앞서 설명한 문제들을 해결하기 위해 개발된 새로운
 
 ## 2. 서비스 배경
 
-![교육부 자료](./images/background1.PNG)
+![교육부 자료](/images/background1.PNG)
 
 최근 몇 년간 국비지원 부트캠프와 첨단산업 인재 양성을 위한 교육 프로그램이 급증하고 있습니다. 2023년에는 10개 대학이 161개 기업과 협력하여 1,255명의 인재를 양성했으며, 2024년에는 이차전지, 차세대 디스플레이, 바이오, 항공·우주산업 등 새로운 분야로 확대될 예정입니다. 이러한 교육 프로그램은 단기 집중 교육을 통해 첨단산업 분야로 진출할 수 있는 실질적 인재를 양성하고 있습니다.
 
-![HRD-Net출결](./images/background2.PNG)
+![HRD-Net출결](/images/background2.PNG)
 
 그러나 현재 국비지원교육에서 사용되고 있는 **HRD-Net**은 출결 확인 외의 기능이 전무해, 수강생들이 커리큘럼 진행 상황, 공지사항, 학습 성과 등 필수 정보를 확인하려면 별도의 방식에 의존해야 하는 불편함이 존재합니다. 교육 품질의 향상을 위한 학습 관리 시스템(LMS)의 필요성이 절실한 상황입니다.
 
-![LMS전망](./images/background3.PNG)
+![LMS전망](/images/background3.PNG)
 
 동시에, **LMS 시장**은 급속히 성장하고 있습니다. 팬데믹을 계기로 온라인 학습 환경에 대한 수요가 폭발적으로 증가했으며, LMS는 단순히 교육기관뿐만 아니라 기업, 공공기관, 학회 등 다양한 분야에서 도입되고 있습니다. 실제로 LMS 시장은 연평균 31.4%씩 성장해 2025년에는 332억 달러 규모에 이를 것으로 전망됩니다. LMS는 학습자의 학습 활동을 지원하고 관리하며, 비대면 학습뿐 아니라 대면 학습과 병행할 때도 큰 효과를 발휘하는 시스템으로 자리 잡았습니다.
 
@@ -102,34 +102,27 @@ EduLink는 앞서 설명한 문제들을 해결하기 위해 개발된 새로운
 
 
 
-# 📚기능/요구사항/테스트 명세서
+# 📚요구사항 정의서
 
 
-<summary> <h3>1. 기능 명세서</h3> </summary>
-<p>
-
-</p>
-
-
-
-<summary> <h3>2. 요구사항 정의서</h3> </summary>
-<a href="">요구사항 정의서<a/><br/><br/>
-<img src="" width="100%" />
+<a href="/planning_document/02. 요구사항 정의서(2팀).xlsx">요구사항 정의서<a/>
+![ERD](/images/requirement.png)
 
 
 <br>
 
 # 🐸ERD
 
-[![ERD](./images/erd.png)](https://www.erdcloud.com/d/JN9kEWsGQtke5x2KW)
 [ERD](https://www.erdcloud.com/d/JN9kEWsGQtke5x2KW)
+[![ERD](/images/erd.png)](https://www.erdcloud.com/d/JN9kEWsGQtke5x2KW)
 <br>
 
 
 <br>
 
 # 🐳시스템 아키텍처
-<img src="" width="80%" />
+
+![시스템 아키텍처](/images/sys_arc.png)
 
 <br>
 
@@ -137,15 +130,6 @@ EduLink는 앞서 설명한 문제들을 해결하기 위해 개발된 새로운
 <!--
 <details>
 	<summary> <b>DDL </b> </summary>
-<p>
-	<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/dev/assets/image/ddl_user.png" width="50%" /><br>
-	<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/dev/assets/image/ddl_post.png" width="65%" /><br>
-	<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/dev/assets/image/ddl_category.png" width="50%" /><br>
-	<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/dev/assets/image/ddl_chat_room.png" width="50%" /><br>
-	<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/dev/assets/image/ddl_chat_message.png" width="60%" /><br>
-	<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/dev/assets/image/ddl_user_has_category.png" width="50%" /><br>
-	<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/dev/assets/image/ssl_user_has_post.png" width="50%" /><br>
-</p>
 </details>
 
 <details><summary> <b>1. USER회원가입 </b> </summary>
