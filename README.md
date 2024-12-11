@@ -142,19 +142,44 @@ EduLink는 앞서 설명한 문제들을 해결하기 위해 개발된 새로운
 </details>
 
 ---
-### 정엽
-
----
-### 우진
-
----
-### 무성
-
----
-### 유진
-
----
-
+합격한 수업에 등록 신청 <br>
+<img src="./images/query_img/sql19.png" /> <br>
+학생들이 봐야할 시험을 등록,수정,삭제 <br>
+<img src="./images/query_img/sql18.png" /> <br>
+커리큘럼 진행 상황 확인 <br>
+<img src="./images/query_img/sql17.png" /> <br>
+출석, 지각, 조퇴, 외출, 결석을 몇번 남았는지 확인한다. <br>
+<img src="./images/query_img/sql16.png" /> <br>
+작성된 공지사항의 목록을 볼 수 있다. <br>
+<img src="./images/query_img/sql15.png" /> <br>
+수업의 이름 및 강사 프로필, 포트폴리오 등의 정보 열람 <br>
+<img src="./images/query_img/sql14.png" /> <br>
+수업의 강사를 배정할 수 있다 <br>
+<img src="./images/query_img/sql13.png" /> <br>
+수업의 강사를 배정 해제할 수 있다 <br>
+<img src="./images/query_img/sql12.png" /> <br>
+새로운 수업을 등록(생성)할 수 있다 <br>
+<img src="./images/query_img/sql11.png" /> <br>
+사용자가 회원 정보 수정 <br>
+<img src="./images/query_img/sql10.png" /> <br>
+사용자가 로그인 <br>
+<img src="./images/query_img/sql9.png" /> <br>
+사용자 ID PASSWORD 찾기 <br>
+<img src="./images/query_img/sql8.png" /> <br>
+버튼을 눌러 퇴실 <br>
+<img src="./images/query_img/sql7.png" /> <br>
+버튼을 눌러 입실한다. <br>
+<img src="./images/query_img/sql6.png" /> <br>
+버튼을 눌러 외출함 <br>
+<img src="./images/query_img/sql5.png" /> <br>
+매니저는 학생의 정보를 조회할 수 있다 <br>
+<img src="./images/query_img/sql4.png" /> <br>
+매니저는 매니저를 등록할 수 있다 <br>
+<img src="./images/query_img/sql3.png" /> <br>
+매니저는 매니저 권한을 삭제 할 수 있다 <br>
+<img src="./images/query_img/sql2.png" /> <br>
+대시 보드에서 시험 점수를 확인한다 <br>
+<img src="./images/query_img/sql1.png" /> <br>
 
 
 
