@@ -8,6 +8,23 @@
 <h4>2팀 - 👽김무성, 🐹김유진, 🐨김정엽, 🦊오건하, 🤖이우진</h4>
 </div>
 
+## 🤼‍♂️팀원 소개 
+
+<div style="display: flex; justify-content: center;">
+  <table  align="center">
+    <tbody>
+      <tr>
+        <td align="center"><a href="https://github.com/706com" style="text-decoration: none; color: lightgray;"><img src="https://github.com/user-attachments/assets/1c5c3222-e616-471b-aa2d-5ebff36ae3ed" width="100px;" height="100px;" background-size="cover;" alt=""/><br /><sub><b> 👽 김무성</b></sub></a><br /></td>
+        <td align="center"><a href="https://github.com/postrel63" style="text-decoration: none; color: lightgray;"><img src="https://i.pinimg.com/222x/4e/92/54/4e9254d45725666a3fe8855e9cca5ba9.jpg" width="100px;"  alt=""/><br /><sub><b> 🐹 김유진</b></sub></a><br /></td>
+        <td align="center"><a href="https://github.com/shinebyul" style="text-decoration: none; color: lightgray;"><img src="https://pbs.twimg.com/profile_images/3008255612/a56d6133b8f6aa19afecd19c79536a76_400x400.png" width="100px;" height="100px;" alt=""/><br /><sub><b> 🐨 김정엽</b></sub></a><br /></td>
+        <td align="center"><a href="https://github.com/choijw1116" style="text-decoration: none; color: lightgray;"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRich3DFlHTCbrEzOhs6gt6fnn1PUsNBopG2w&s" width="100px;" alt=""/><br /><sub><b> 🦊 오건하</b></sub></a><br /></td>
+            <td align="center"><a href="https://github.com/wergx" style="text-decoration: none; color: lightgray;"><img src="https://pbs.twimg.com/profile_images/3009669833/cae9685e735be56bfe84f5f1a2748e2f_400x400.jpeg" width="100px;" alt=""/><br /><sub><b> 🤖 이우진</b></sub></a><br /></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<br>
+
 <br>
 <!--
 <div align=center>
