@@ -126,8 +126,6 @@ EduLink는 앞서 설명한 문제들을 해결하기 위해 개발된 새로운
 
 <br>
 
-# 💻SQL개발
-<!--
 <details>
 	<summary> <b>DDL </b> </summary>
 </details>
@@ -142,137 +140,23 @@ EduLink는 앞서 설명한 문제들을 해결하기 위해 개발된 새로운
 <img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/readme/assets/image/USER%ED%9A%8C%EC%9B%90%EA%B0%80%EC%9E%85.png" width="100%" />
 </p>
 </details>
-<details><summary> <b>2. USER정보조회 </b> </summary>
-<p>
-	
-- USER정보(전체조회)
-  - select all로 USER테이블에서 전체유저정보를 조회한다.
 
-    <br>
-    
-<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/readme/assets/image/USER%EC%A0%95%EB%B3%B4%EC%A1%B0%ED%9A%8C_%EC%A0%84%EC%B2%B4.png" width="100%" />
+---
+### 정엽
 
-- USER정보(특정유저정보조회)
-  - select all로 USER테이블에서 where절에서 해당 조건으로 특정유저정보를 조회한다.
-    <br>
-    
-<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/readme/assets/image/USER%EC%A0%95%EB%B3%B4%EC%A1%B0%ED%9A%8C_%ED%8A%B9%EC%A0%95%ED%9A%8C%EC%9B%90.png" width="100%" />
-</p>
-</details>
-<details><summary> <b>3. CHAT-ROOM생성 </b> </summary>
-<p>
-	
-- idx=5인 post에서 idx=1인 user가 채팅하기를 클릭했을 때<br>
-1. 생성 조건 확인<br>
-<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/dev/assets/image/chatroom%EC%83%9D%EC%84%B1_%EC%A1%B0%EA%B1%B4%20%ED%99%95%EC%9D%B8.png" width="35%" /><br>
-2. 이미 참여중인 채팅방이 있는지 확인<br>
-<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/dev/assets/image/chat_room%EC%83%9D%EC%84%B1_%EC%A1%B4%EC%9E%AC%20%ED%99%95%EC%9D%B8.png" width="60%" /><br>
-3. 게시글 작성자 확인<br>
-<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/dev/assets/image/chat_room%EC%83%9D%EC%84%B1_%EC%9E%91%EC%84%B1%EC%9E%90%20%ED%99%95%EC%9D%B8.png" width="40%" /><br>
-4. chat_room 생성<br>
-<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/dev/assets/image/chat_room%EC%83%9D%EC%84%B1(1).png" width="60%" /><br>
-</p>
-</details>
+---
+### 우진
 
-<details>
-	<summary> <b>4.CHAT_ROOM리스트 조회 </b></summary>
-<p>
-- 참여중인 채팅방 조회(user idx=1)<br>
-<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/dev/assets/image/chatroom%EC%A1%B0%ED%9A%8C_%EC%A0%84%EC%B2%B4.png" width="50%" /><br><br>
-- 내가 작성자인 게시글의 채팅방 조회(user idx=1)<br>
-<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/dev/assets/image/chat_room%EC%A1%B0%ED%9A%8C_%EB%82%B4%EA%B0%80%EC%98%AC%EB%A6%B0.png" width="40%" /><br><br>
-- 내가 신청자인 게시글의 채팅방 조회(user idx=1)<br>
-<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/dev/assets/image/chat_room%EC%A1%B0%ED%9A%8C_%EB%82%B4%EA%B0%80%EC%8B%A0%EC%B2%AD%ED%95%9C.png" width="40%" /><br><br>
-</p>
-</details>
+---
+### 무성
 
-<details><summary> <b>5. CHAT_MESSAGE생성 </b> </summary>
-<p>
-	
-- chattime, message, send_user_idx, CHAT_ROOM_idx를 insert해서 CHAT_MESSAGE를 생성한다.
-  
-  <br>
-  
-<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/readme/assets/image/CHAT_MESSAGE%EC%83%9D%EC%84%B1.PNG?raw=true" width="100%" />
-</p>
-</details>
-<details><summary> <b>6. POST작성 </b> </summary>
-<p>
-	
-- title, c_top_give,c_top_want,c_btm_give,c_bottom_want,contents, post_time, modify_time,status, post_type,USER_idx 를 입력하고 POST작성을 한다.
+---
+### 유진
 
-<br>
+---
 
-<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/readme/assets/image/POST%EC%9E%91%EC%84%B1.png" width="80%" />
-</p>
-</details>
 
-<details><summary> <b>7. 글 상세 조회 </b> </summary>
-<p>
-	
-- title, c_top_give,c_top_want,c_btm_give,c_bottom_want,contents, post_time, modify_time,status, post_type,USER_idx를 POST테이블에서 where절에서 해당조건으로 조회한다.
-<br>
 
-<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/readme/assets/image/%EA%B8%80%EC%83%81%EC%84%B8%EC%A1%B0%ED%9A%8C.png" width="100%" />
-	
-</p>
-</details>
-
-<details><summary> <b>8. 글 목록 조회 </b> </summary>
-<p>
-- 전체 글 목록 조회<br>
-<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/readme/assets/image/%EC%A0%84%EC%B2%B4%EA%B8%80%EC%A1%B0%ED%9A%8C.png" width="80%" /><br><br>
-- 나눔 글 목록 조회<br>
-<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/dev/assets/image/post%EC%A1%B0%ED%9A%8C_%EB%82%98%EB%88%94%EA%B8%80.png" width="80%" /><br><br>
-- 교환 글 목록 조회.<br>
-<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/dev/assets/image/post%EC%A1%B0%ED%9A%8C_%EA%B5%90%ED%99%98%EA%B8%80.png" width="80%" /><br><br>
-</p>
-</details>
-
-<details><summary> <b>9. USER가 작성한 글 조회 </b> </summary>
-<p>
-	
-- title, c_top_give,c_top_want,c_btm_give,c_bottom_want,contents, post_time, modify_time,status, post_type,USER_idx를 POST테이블에서 where절에서 해당조건으로 USER가 작성한 글을 조회한다.
-
-  <br>
-  
-<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/readme/assets/image/USER%EA%B0%80%EC%9E%91%EC%84%B1%ED%95%9C%EA%B8%80%EC%A1%B0%ED%9A%8C.png" width="100%" />
-</p>
-</details>
-<details><summary> <b>10. USER가 신청한 글 조회 </b> </summary>
-<p>
-	
-- POST_MATCHING_USER 테이블을 참조하여 해당 테이블 안에 있는 해당 USER_IDX를 찾고, 해당 USER의 POST_ID를 찾아 해당 POST의 ID에 맞는 글을 조회한다.
-
-  <br>
-  
-<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/readme/assets/image/USER%EA%B0%80%EC%8B%A0%EC%B2%AD%ED%95%9C%EA%B8%80%EC%A1%B0%ED%9A%8C.png" width="100%" />
-</p>
-</details>
-
-<details>
-	<summary> <b>11. 검색 </b> </summary>
-	<p>
-		- 카테고리 검색(idx=1 인 카테고리 선택)<br>
-		<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/dev/assets/image/%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC%EA%B2%80%EC%83%89.png" width="100%" /><br><br>
-		- 키워드 검색(키워드 : "software")<br>
-		<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/dev/assets/image/%ED%82%A4%EC%9B%8C%EB%93%9C%EA%B2%80%EC%83%892.png" width="100%" /><br><br>
-		<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/dev/assets/image/%ED%82%A4%EC%9B%8C%EB%93%9C%20%EA%B2%80%EC%83%89.png" width="100%" /><br><br>
-	</p>
-</details>
-
-<details>
-	<summary> <b>12. 교환상대확정 </b> </summary>
-	<p>
-	- 게시글 상태 변경 후 교환 상대 저장<br>
-  	<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/dev/assets/image/%EA%B5%90%ED%99%98%EC%83%81%EB%8C%80%ED%99%95%EC%A0%95(1).png" width="70%" />
-	</p>
-</details>
-
-<br>
-<br>
-
--->
 
 # 💻SQL 성능개선
 <!--
