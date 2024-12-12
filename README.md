@@ -130,96 +130,89 @@ EduLink는 앞서 설명한 문제들을 해결하기 위해 개발된 새로운
 	<summary> <b>DDL </b> </summary>
 </details>
 
-<details><summary> <b>1. USER회원가입 </b> </summary>
+<details><summary> <b> 공통 </b> </summary>
 <p>
 	
-- nickname,email,password,signup_date,user_auth의 값을 입력하고 회원가입을 한다. 
+- 회원가입
+
+- 로그인
+<img src="./images/query_img/sql9.png" /> <br>
+
+- 회원 정보 수정 <br>
+<img src="./images/query_img/sql10.png" /> <br>
+
+- ID PASSWORD 찾기 <br>
+<img src="./images/query_img/sql8.png" /> <br>
+
+
 
  <br>
  
-<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/readme/assets/image/USER%ED%9A%8C%EC%9B%90%EA%B0%80%EC%9E%85.png" width="100%" />
 </p>
 </details>
 
----
-합격한 수업에 등록 신청 <br>
+<details><summary> <b> 회원 </b> </summary>
+<p>
+	
+- 합격한 부트캠프 등록 신청
 <img src="./images/query_img/sql19.png" /> <br>
-학생들이 봐야할 시험을 등록,수정,삭제 <br>
-<img src="./images/query_img/sql18.png" /> <br>
-커리큘럼 진행 상황 확인 <br>
+
+- 커리큘럼  확인 <br>
 <img src="./images/query_img/sql17.png" /> <br>
-출석, 지각, 조퇴, 외출, 결석을 몇번 남았는지 확인한다. <br>
+- 출결 확인 <br>
 <img src="./images/query_img/sql16.png" /> <br>
-작성된 공지사항의 목록을 볼 수 있다. <br>
-<img src="./images/query_img/sql15.png" /> <br>
-수업의 이름 및 강사 프로필, 포트폴리오 등의 정보 열람 <br>
-<img src="./images/query_img/sql14.png" /> <br>
-수업의 강사를 배정할 수 있다 <br>
-<img src="./images/query_img/sql13.png" /> <br>
-수업의 강사를 배정 해제할 수 있다 <br>
-<img src="./images/query_img/sql12.png" /> <br>
-새로운 수업을 등록(생성)할 수 있다 <br>
-<img src="./images/query_img/sql11.png" /> <br>
-사용자가 회원 정보 수정 <br>
-<img src="./images/query_img/sql10.png" /> <br>
-사용자가 로그인 <br>
-<img src="./images/query_img/sql9.png" /> <br>
-사용자 ID PASSWORD 찾기 <br>
-<img src="./images/query_img/sql8.png" /> <br>
-버튼을 눌러 퇴실 <br>
-<img src="./images/query_img/sql7.png" /> <br>
-버튼을 눌러 입실한다. <br>
+- 입실 <br>
 <img src="./images/query_img/sql6.png" /> <br>
-버튼을 눌러 외출함 <br>
+- 퇴실 <br>
+<img src="./images/query_img/sql7.png" /> <br>
+- 외출 <br>
 <img src="./images/query_img/sql5.png" /> <br>
-매니저는 학생의 정보를 조회할 수 있다 <br>
-<img src="./images/query_img/sql4.png" /> <br>
-매니저는 매니저를 등록할 수 있다 <br>
-<img src="./images/query_img/sql3.png" /> <br>
-매니저는 매니저 권한을 삭제 할 수 있다 <br>
-<img src="./images/query_img/sql2.png" /> <br>
-대시 보드에서 시험 점수를 확인한다 <br>
+- 공지사항 확인 <br>
+<img src="./images/query_img/sql15.png" /> <br>
+- 수업 및 강사 정보 열람 <br>
+<img src="./images/query_img/sql14.png" /> <br>
+
+
+
+ <br>
+ 
+</p>
+</details>
+
+<details><summary> <b> 강사 </b> </summary>
+<p>
+	
+- 시험 점수 확인 <br>
 <img src="./images/query_img/sql1.png" /> <br>
 
+ <br>
+ 
+</p>
+</details>
+
+<details><summary> <b> 매니저 </b> </summary>
+<p>
+	
+- 시험을 등록,수정,삭제 <br>
+<img src="./images/query_img/sql18.png" /> <br>
+
+- 강사 권한 설정 <br>
+<img src="./images/query_img/sql13.png" /> <br>
+<img src="./images/query_img/sql12.png" /> <br>
+- 새로운 수업 등록(생성) <br>
+<img src="./images/query_img/sql11.png" /> <br>
+- 학생 정보 조회 <br>
+<img src="./images/query_img/sql4.png" /> <br>
+- 매니저 권한 설정 <br>
+<img src="./images/query_img/sql3.png" /> <br>
+<img src="./images/query_img/sql2.png" /> <br>
+
+ <br>
+ 
+</p>
+</details>
 
 
 # 💻SQL 성능개선
-<!--
-<details><summary> <b> 전체POST에서 교환글(OR 나눔글)조회 성능개선 </b> </summary>
-<p>
-
-<br>
-<br>
- 
-1. 일반쿼리문 실행시 5227행 , 0.015sec 
-
-<br>
- 
-<div>Before</div>
- 
-<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/readme/assets/image/%EC%84%B1%EB%8A%A5%EA%B0%9C%EC%84%A01_before.png" width="100%" />
-
-<br>
-<br>
 
 
-<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/readme/assets/image/%EC%84%B1%EB%8A%A5%EA%B0%9C%EC%84%A01_after.png" width="100%" />
-
-<br>
-<br>
-
-2. 인덱스쿼리 실행시 2336행 , 0.000 sec
-
-<br>
-
-<div>After</div>
-<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/readme/assets/image/%EC%84%B1%EB%8A%A5%EA%B0%9C%EC%84%A02_before.png" width="100%" />
-
-<br>
-<br>
-
-<img src="https://github.com/beyond-sw-camp/be06-1st-ketchop-mojal/blob/readme/assets/image/%EC%84%B1%EB%8A%A5%EA%B0%9C%EC%84%A02_after.png" width="100%" />
-</p>
-</details>
-
--->
