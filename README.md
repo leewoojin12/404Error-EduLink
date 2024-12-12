@@ -126,8 +126,14 @@ EduLink는 앞서 설명한 문제들을 해결하기 위해 개발된 새로운
 
 <br>
 
+# 💻SQL개발
 <details>
-	<summary> <b>DDL </b> </summary>
+	<summary> <b> DDL </b> </summary>
+  <p>
+	<a href="/planning_document/Team404 DDL.sql">DDL sql파일<a/>
+  <img src="./images/ddl.png" /> <br>
+  <br>
+  </p>
 </details>
 
 <details><summary> <b> 공통 </b> </summary>
