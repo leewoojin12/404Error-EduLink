@@ -227,11 +227,15 @@ EduLink는 앞서 설명한 문제들을 해결하기 위해 개발된 새로운
 
  
 
+ 
 ## 🔗 프로젝트 구성 및 역할별 링크
 
 | 링크 | GitHub / 결과물 링크 |
-|------|--------|---------------------|
-| 💻 프론트엔드 |  [프론트엔드 GitHub 바로가기](https://github.com/kuj7882) |
-| 🖥 백엔드 |  [백엔드 GitHub 바로가기](https://github.com/kuj7882) |
-| ⚙️ DevOps / 배포 자동화 |  [CI/CD 구성 및 배포 설명](https://github.com/leewoojin12) |
+|------|---------------------|
+| 💻 프론트엔드 | [프론트엔드 GitHub 바로가기](https://github.com/beyond-sw-camp/be12-2nd-404Error-EduLink) |
+| 🖥 백엔드 | [백엔드 GitHub 바로가기](https://github.com/beyond-sw-camp/be12-3nd-404Error-EduLink) |
+| ⚙️ DevOps / 배포 자동화 | [CI/CD 구성 및 배포 설명](https://github.com/beyond-sw-camp/be12-4nd-404Error-EduLink) |
+| 📄 요구사항 정의서 | - | [요구사항 정의서 다운로드]([./planning_document/02.%20요구사항%20정의서(2팀).xlsx](https://docs.google.com/spreadsheets/d/1nRkm9AtCQVVllGa76H2AEJyB0iz8IZPo/edit?gid=2016348788#gid=2016348788)) |
+
+
 
