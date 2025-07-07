@@ -259,6 +259,6 @@ EduLink는 앞서 설명한 문제들을 해결하기 위해 개발된 새로운
 - 🔐 **기술 구현**
   - Spring Security + JWT 기반 인증/인가
   - 전역 예외 처리(GlobalExceptionHandler)
-  - CI/CD 자동 배포: GitHub Actions + Docker + EC2
+  - 블루/그린 CI/CD 자동 배포: GitHub  + Docker + k8s + Jenkins
 
 
